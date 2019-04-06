@@ -31,8 +31,6 @@ public class WordCount {
         FileInputFormat.addInputPath(j, input);
         FileOutputFormat.setOutputPath(j, output);
         System.exit(j.waitForCompletion(true) ? 0 : 1);
-
-        System.out.println("Testing Git");
     }
 
     public static class MapForWordCount extends Mapper<LongWritable, Text, Text, IntWritable> {
