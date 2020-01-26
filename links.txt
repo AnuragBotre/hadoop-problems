@@ -1,2 +1,6 @@
 Hadoop Book Example Code
+This repository contains the example code for Hadoop:
+The Definitive Guide, Fourth Edition by Tom White (O'Reilly, 2014).
+Code for the First, Second, and Third Editions is also available.
+
 https://github.com/tomwhite/hadoop-book
